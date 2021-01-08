@@ -12,3 +12,9 @@
 | -------- | ---- | ---- | ---- |
 | Publish on npm | **08-01-2021** | NEW | |
 
+## [0.0.3]
+
+| Activity | Date | Type | Notes |
+| -------- | ---- | ---- | ---- |
+| Updated peer dependencies | **08-01-2021** | NEW | |
+
