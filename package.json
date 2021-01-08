@@ -2,6 +2,9 @@
   "name": "cm-utils-app",
   "version": "0.0.1",
   "private": false,
+  "scripts": {
+    "build-lib": "ng build cm-utils --prod && copy README.md dist\\cm-utils && copy LICENSE.md dist\\cm-utils && copy CONTRIBUTING.md dist\\cm-utils && copy RELEASENOTES.md dist\\cm-utils"
+  },
   "dependencies": {
     "@angular/animations": "~9.1.13",
     "@angular/common": "~9.1.13",
