@@ -145,6 +145,11 @@
           "options": {
             "tsConfig": "projects/cm-utils/tsconfig.lib.json",
             "project": "projects/cm-utils/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/cm-utils/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
