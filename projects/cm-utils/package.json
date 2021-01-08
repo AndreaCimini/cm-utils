@@ -1,6 +1,37 @@
 {
   "name": "@acimini/cm-utils",
   "version": "0.0.2",
+  "author": "Andrea Cimini",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreaCimini/cm-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreaCimini/cm-utils/issues"
+  },
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "merge",
+    "clone",
+    "unique",
+    "json to typescript",
+    "typescript to json",
+    "deep find",
+    "deep update",
+    "deep delete"
+  ],
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "test-lib": "ng test cm-utils"
+  },
+  "license": "Apache",
   "peerDependencies": {
     "@angular/common": "^7.0.0",
     "@angular/core": "^7.0.0"
