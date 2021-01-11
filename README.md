@@ -37,7 +37,7 @@ This is based on:
 
 ## Install
 
-``npm install cm-utils --save``
+``npm install @acimini/cm-utils --save``
 
 Import in your app
 
