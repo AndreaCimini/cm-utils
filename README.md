@@ -10,7 +10,7 @@ With this library we have:
 * functions to **find, update and remove** properties deep into an object
 
 This is based on:
-* [**A**ngular 9](https://angular.io)
+* [Angular 9](https://angular.io)
 
 ## Index
 
