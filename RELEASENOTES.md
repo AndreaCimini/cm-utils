@@ -4,7 +4,7 @@
 
 | Activity | Date | Type | Notes |
 | -------- | ---- | ---- | ---- |
-| First release | **DD-MM-YYYY** | NEW | |
+| First release | **08-01-2021** | NEW | |
 
 ## [0.0.2]
 
