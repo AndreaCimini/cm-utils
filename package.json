@@ -1,6 +1,28 @@
 {
   "name": "cm-utils-app",
   "version": "0.0.3",
+  "author": "Andrea Cimini",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreaCimini/cm-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreaCimini/cm-utils/issues"
+  },
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "merge",
+    "clone",
+    "unique",
+    "json to typescript",
+    "typescript to json",
+    "deep find",
+    "deep update",
+    "deep delete"
+  ],
+  "license": "Apache",
   "private": false,
   "scripts": {
     "build-lib": "ng build cm-utils --prod && copy README.md dist\\cm-utils && copy LICENSE.md dist\\cm-utils && copy CONTRIBUTING.md dist\\cm-utils && copy RELEASENOTES.md dist\\cm-utils"
