@@ -42,7 +42,7 @@ This is based on:
 Import in your app
 
 ```javascript
-import { CmUtilsModule } from 'cm-utils';
+import { CmUtilsModule } from '@acimini/cm-utils';
 
 @NgModule({
   imports: [ CmUtilsModule ],
@@ -52,10 +52,10 @@ import { CmUtilsModule } from 'cm-utils';
 
 ## How to use
 
-#### First define you model
+#### First define your model
 
  ```javascript
- import {CmUtilsProperty} from 'cm-utils';
+ import {CmUtilsProperty} from '@acimini/cm-utils';
 
  class SubClassName {
    @CmUtilsProperty(String) subkey1: string;
@@ -90,7 +90,7 @@ Multi types are used for those variables that can have multi types at same time.
 In this case model definition will be
 
  ```javascript
- import {CmUtilsProperty, Multi} from 'cm-utils';
+ import {CmUtilsProperty, Multi} from '@acimini/cm-utils';
 
  class ClassName {
    @CmUtilsProperty(new Multi(String, Number)) key1: string | number;
@@ -103,7 +103,7 @@ Tuple types are used for those variables that are arrays with defined number of 
 In this case model definition will be
 
  ```javascript
- import {CmUtilsProperty, Tuple} from 'cm-utils';
+ import {CmUtilsProperty, Tuple} from '@acimini/cm-utils';
 
  class ClassName {
    @CmUtilsProperty(new Tuple(String, Number)) key1: [string, number];
@@ -113,7 +113,7 @@ In this case model definition will be
 #### Use utility functions
 
  ```javascript
- import {CmUtilsService} from 'cm-utils';
+ import {CmUtilsService} from '@acimini/cm-utils';
 
  const firstObj = new ClassName();
  const secondObj = new ClassName();
