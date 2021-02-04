@@ -18,3 +18,9 @@
 | -------- | ---- | ---- | ---- |
 | Updated peer dependencies | **08-01-2021** | NEW | |
 
+## [0.0.4]
+
+| Activity | Date | Type | Notes |
+| -------- | ---- | ---- | ---- |
+| Updated readme | **04-02-2021** | NEW | |
+
